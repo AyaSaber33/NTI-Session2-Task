@@ -1,0 +1,64 @@
+/* Reset styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* General styles */
+.bg-black {
+    background-color: rgb(42, 42, 42);
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.text-white{
+    color: white;
+}
+
+.text-light-gray{
+    color :#e0dada;
+}
+.clear{
+    clear: both;
+}
+
+
+/* custom styles */
+
+nav{
+    padding: .8% 0%;
+}
+nav ul{
+    padding-top: 1%;
+    width: 37%;
+}
+nav ul li{
+    margin-left: 8%;
+}
+.font-size{
+    font-size: 2.3rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-orange{
+    font-weight: lighter;
+    color: rgb(247, 166, 15);
+}
